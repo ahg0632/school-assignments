@@ -1,0 +1,29 @@
+10
+John Smith
+122.0
+05:40:52
+
+20
+Gary Benson
+115.9
+05:50:40
+
+25
+David Myers
+103.7
+05:53:16
+
+12
+Julio Garza
+97.6
+05:35:00
+
+30
+Mason Prince
+97.6
+05:52:21
+
+15
+Tom Stanford
+91.5
+05:36:07
