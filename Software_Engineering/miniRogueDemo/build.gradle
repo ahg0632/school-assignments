@@ -1,0 +1,118 @@
+
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'com.rogueDemo'
+version = '1.0.0'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // JUnit 5 for testing
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.1'
+    testImplementation 'org.junit.jupiter:junit-jupiter-params:5.10.1'
+
+    // Mockito for testing
+    testImplementation 'org.mockito:mockito-core:5.8.0'
+    testImplementation 'org.mockito:mockito-junit-jupiter:5.8.0'
+    
+    // JSON processing for configuration files
+    implementation 'org.json:json:20231013'
+    
+    // Swing is part of JDK, no external dependency needed
+    // java.awt and javax.swing are included in JDK
+}
+
+application {
+    mainClass = 'controller.Main'
+    
+    // JVM arguments for better performance
+    applicationDefaultJvmArgs = [
+        '-Xmx512m',
+        '-Xms256m',
+        '-Djava.awt.headless=false'
+    ]
+}
+
+test {
+    useJUnitPlatform()
+    
+    // Disable parallel test execution to prevent race conditions
+    // maxParallelForks = 1
+    
+    // Add timeout to prevent hanging tests
+    timeout = Duration.ofMinutes(5)
+    
+    // JVM arguments to resolve Java 24 compatibility issues
+    jvmArgs = [
+        '-Djdk.instrument.traceUsage=false',
+        '-XX:+EnableDynamicAgentLoading'
+    ]
+    
+    // Show standard output and error for debugging
+    testLogging {
+        showStandardStreams = true
+        showExceptions = true
+        showCauses = true
+        showStackTraces = true
+    }
+}
+
+// Task to create executable JAR
+jar {
+    archiveBaseName = 'MiniRogueDemo'
+
+    manifest {
+        attributes(
+            'Main-Class': 'controller.Main',
+            'Implementation-Title': 'Mini Rogue Demo'
+        )
+    }
+    
+    // Include all dependencies in JAR
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+// Build native application using jpackage
+task buildNative(type: Exec) {
+    dependsOn 'jar'
+    commandLine 'jpackage', 
+        '--input', 'build/libs', 
+        '--name', 'MiniRogueDemo', 
+        '--main-jar', 'MiniRogueDemo-1.0.0.jar', 
+        '--main-class', 'controller.Main', 
+        '--type', 'app-image', 
+        '--dest', 'build/dist',
+        '--runtime-image', System.getProperty('java.home')
+}
+
+// Compiler options
+compileJava {
+    options.encoding = 'UTF-8'
+    options.compilerArgs += ['-Xlint:unchecked', '-Xlint:deprecation']
+}
+
+compileTestJava {
+    options.encoding = 'UTF-8'
+} 
+
+// Ensure resources (fonts, images, etc.) are copied to the build output
+processResources {
+    from('src/main/resources') {
+        include '**/*'
+    }
+    into "$buildDir/resources/main"
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+} 
