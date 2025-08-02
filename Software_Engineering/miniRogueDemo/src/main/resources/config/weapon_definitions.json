@@ -1,0 +1,708 @@
+{
+  "weapons": {
+    "sharp_axe": {
+      "name": "Sharp Axe",
+      "attack": 7,
+      "defense": 3,
+      "class": "WARRIOR",
+      "type": "IMPACT",
+      "tier": 1,
+      "image": "Impact/broad_axe_1.png",
+      "category": "impact"
+    },
+    "knight_axe": {
+      "name": "Knight Axe",
+      "attack": 9,
+      "defense": 1,
+      "class": "WARRIOR",
+      "type": "IMPACT",
+      "tier": 1,
+      "image": "Impact/broad_axe_5.png",
+      "category": "impact"
+    },
+    "executioner_axe": {
+      "name": "Executioner Axe",
+      "attack": 8,
+      "defense": 2,
+      "class": "WARRIOR",
+      "type": "IMPACT",
+      "tier": 1,
+      "image": "Impact/executioner_axe_2_new.png",
+      "category": "impact"
+    },
+    "giant_axe": {
+      "name": "Giant Axe",
+      "attack": 10,
+      "defense": 0,
+      "class": "WARRIOR",
+      "type": "IMPACT",
+      "tier": 1,
+      "image": "Impact/executioner_axe_4.png",
+      "category": "impact"
+    },
+    "spiked_club": {
+      "name": "Spiked Club",
+      "attack": 6,
+      "defense": 4,
+      "class": "WARRIOR",
+      "type": "IMPACT",
+      "tier": 1,
+      "image": "Impact/giant_spiked_club_2.png",
+      "category": "impact"
+    },
+    "basic_halberd": {
+      "name": "Basic Halberd",
+      "attack": 8,
+      "defense": 2,
+      "class": "WARRIOR",
+      "type": "IMPACT",
+      "tier": 1,
+      "image": "Impact/halberd_4.png",
+      "category": "impact"
+    },
+    "royal_halberd": {
+      "name": "Royal Halberd",
+      "attack": 9,
+      "defense": 1,
+      "class": "WARRIOR",
+      "type": "IMPACT",
+      "tier": 1,
+      "image": "Impact/halberd_5.png",
+      "category": "impact"
+    },
+    "iron_hammer": {
+      "name": "Iron Hammer",
+      "attack": 7,
+      "defense": 3,
+      "class": "WARRIOR",
+      "type": "IMPACT",
+      "tier": 1,
+      "image": "Impact/hammer_1_new.png",
+      "category": "impact"
+    },
+    "toy_hammer": {
+      "name": "Toy Hammer",
+      "attack": 8,
+      "defense": 2,
+      "class": "WARRIOR",
+      "type": "IMPACT",
+      "tier": 1,
+      "image": "Impact/hammer_3.png",
+      "category": "impact"
+    },
+    "tomahawk": {
+      "name": "Tomahawk",
+      "attack": 6,
+      "defense": 4,
+      "class": "WARRIOR",
+      "type": "IMPACT",
+      "tier": 1,
+      "image": "Impact/hand_axe_2_new.png",
+      "category": "impact"
+    },
+    "lumber_axe": {
+      "name": "Lumber Axe",
+      "attack": 5,
+      "defense": 5,
+      "class": "WARRIOR",
+      "type": "IMPACT",
+      "tier": 1,
+      "image": "Impact/hand_axe_2_old.png",
+      "category": "impact"
+    },
+    "royal_axe": {
+      "name": "Royal Axe",
+      "attack": 7,
+      "defense": 3,
+      "class": "WARRIOR",
+      "type": "IMPACT",
+      "tier": 1,
+      "image": "Impact/hand_axe_3.png",
+      "category": "impact"
+    },
+    "massive_mace": {
+      "name": "Massive Mace",
+      "attack": 8,
+      "defense": 2,
+      "class": "WARRIOR",
+      "type": "IMPACT",
+      "tier": 1,
+      "image": "Impact/mace_large_1_new.png",
+      "category": "impact"
+    },
+    "iron_morningstar": {
+      "name": "Iron Morningstar",
+      "attack": 9,
+      "defense": 1,
+      "class": "WARRIOR",
+      "type": "IMPACT",
+      "tier": 1,
+      "image": "Impact/morningstar_6.png",
+      "category": "impact"
+    },
+    "golden_morningstar": {
+      "name": "Golden Morningstar",
+      "attack": 10,
+      "defense": 0,
+      "class": "WARRIOR",
+      "type": "IMPACT",
+      "tier": 1,
+      "image": "Impact/morningstar_7.png",
+      "category": "impact"
+    },
+    "claymore": {
+      "name": "Claymore",
+      "attack": 8,
+      "defense": 0,
+      "class": "ROGUE",
+      "type": "BLADE",
+      "tier": 1,
+      "image": "Blade/Claymore.png",
+      "category": "blade"
+    },
+    "glassblade": {
+      "name": "Glassblade",
+      "attack": 6,
+      "defense": 2,
+      "class": "ROGUE",
+      "type": "BLADE",
+      "tier": 1,
+      "image": "Blade/Glassblade.png",
+      "category": "blade"
+    },
+    "cutlass_9": {
+      "name": "Cutlass 9",
+      "attack": 7,
+      "defense": 1,
+      "class": "ROGUE",
+      "type": "BLADE",
+      "tier": 1,
+      "image": "Blade/cutlass_9.png",
+      "category": "blade"
+    },
+    "double_blade": {
+      "name": "Double Blade",
+      "attack": 9,
+      "defense": 0,
+      "class": "ROGUE",
+      "type": "BLADE",
+      "tier": 1,
+      "image": "Blade/Double_Blade.png",
+      "category": "blade"
+    },
+    "dagger": {
+      "name": "Dagger",
+      "attack": 5,
+      "defense": 3,
+      "class": "ROGUE",
+      "type": "BLADE",
+      "tier": 1,
+      "image": "Blade/Dagger.png",
+      "category": "blade"
+    },
+    "falchion": {
+      "name": "Falchion",
+      "attack": 7,
+      "defense": 1,
+      "class": "ROGUE",
+      "type": "BLADE",
+      "tier": 1,
+      "image": "Blade/Falchion.png",
+      "category": "blade"
+    },
+    "golden_sword": {
+      "name": "Golden Sword",
+      "attack": 8,
+      "defense": 2,
+      "class": "ROGUE",
+      "type": "BLADE",
+      "tier": 1,
+      "image": "Blade/Golden_Sword.png",
+      "category": "blade"
+    },
+    "great_sword": {
+      "name": "Great Sword",
+      "attack": 10,
+      "defense": 0,
+      "class": "ROGUE",
+      "type": "BLADE",
+      "tier": 1,
+      "image": "Blade/Great_Sword.png",
+      "category": "blade"
+    },
+    "harpy_sword": {
+      "name": "Harpy Sword",
+      "attack": 6,
+      "defense": 2,
+      "class": "ROGUE",
+      "type": "BLADE",
+      "tier": 1,
+      "image": "Blade/Harpy_Sword.png",
+      "category": "blade"
+    },
+    "long_knife": {
+      "name": "Long Knife",
+      "attack": 4,
+      "defense": 4,
+      "class": "ROGUE",
+      "type": "BLADE",
+      "tier": 1,
+      "image": "Blade/Long_Knife.png",
+      "category": "blade"
+    },
+    "long_sword": {
+      "name": "Long Sword",
+      "attack": 8,
+      "defense": 1,
+      "class": "ROGUE",
+      "type": "BLADE",
+      "tier": 1,
+      "image": "Blade/Long_Sword.png",
+      "category": "blade"
+    },
+    "rapier": {
+      "name": "Rapier",
+      "attack": 6,
+      "defense": 3,
+      "class": "ROGUE",
+      "type": "BLADE",
+      "tier": 1,
+      "image": "Blade/Rapier.png",
+      "category": "blade"
+    },
+    "royal_blade": {
+      "name": "Royal Blade",
+      "attack": 9,
+      "defense": 1,
+      "class": "ROGUE",
+      "type": "BLADE",
+      "tier": 1,
+      "image": "Blade/Royal_Blade.png",
+      "category": "blade"
+    },
+    "scimitar": {
+      "name": "Scimitar",
+      "attack": 7,
+      "defense": 2,
+      "class": "ROGUE",
+      "type": "BLADE",
+      "tier": 1,
+      "image": "Blade/Scimitar.png",
+      "category": "blade"
+    },
+    "void_blade": {
+      "name": "Void Blade",
+      "attack": 8,
+      "defense": 0,
+      "class": "ROGUE",
+      "type": "BLADE",
+      "tier": 1,
+      "image": "Blade/Void_Blade.png",
+      "category": "blade"
+    },
+    "advanced_bow": {
+      "name": "Advanced Bow",
+      "attack": 6,
+      "defense": 4,
+      "class": "RANGER",
+      "type": "DISTANCE",
+      "tier": 1,
+      "image": "Distance/Advanced_Bow.png",
+      "category": "distance"
+    },
+    "advanced_crossbow": {
+      "name": "Advanced Crossbow",
+      "attack": 8,
+      "defense": 2,
+      "class": "RANGER",
+      "type": "DISTANCE",
+      "tier": 1,
+      "image": "Distance/Advanced_Crossbow.png",
+      "category": "distance"
+    },
+    "arbalest": {
+      "name": "Arbalest",
+      "attack": 9,
+      "defense": 1,
+      "class": "RANGER",
+      "type": "DISTANCE",
+      "tier": 1,
+      "image": "Distance/Arbalest.png",
+      "category": "distance"
+    },
+    "cheap_crossbow": {
+      "name": "Cheap Crossbow",
+      "attack": 5,
+      "defense": 5,
+      "class": "RANGER",
+      "type": "DISTANCE",
+      "tier": 1,
+      "image": "Distance/Cheap_Crossbow.png",
+      "category": "distance"
+    },
+    "curved_bow": {
+      "name": "Curved Bow",
+      "attack": 7,
+      "defense": 3,
+      "class": "RANGER",
+      "type": "DISTANCE",
+      "tier": 1,
+      "image": "Distance/Curved_Bow.png",
+      "category": "distance"
+    },
+    "fire_starter": {
+      "name": "Fire Starter",
+      "attack": 6,
+      "defense": 4,
+      "class": "RANGER",
+      "type": "DISTANCE",
+      "tier": 1,
+      "image": "Distance/Fire_Starter.png",
+      "category": "distance"
+    },
+    "hunter_bow": {
+      "name": "Hunter Bow",
+      "attack": 8,
+      "defense": 2,
+      "class": "RANGER",
+      "type": "DISTANCE",
+      "tier": 1,
+      "image": "Distance/Hunter_Bow.png",
+      "category": "distance"
+    },
+    "longbow": {
+      "name": "Longbow",
+      "attack": 9,
+      "defense": 1,
+      "class": "RANGER",
+      "type": "DISTANCE",
+      "tier": 1,
+      "image": "Distance/Longbow.png",
+      "category": "distance"
+    },
+    "royal_bow": {
+      "name": "Royal Bow",
+      "attack": 7,
+      "defense": 3,
+      "class": "RANGER",
+      "type": "DISTANCE",
+      "tier": 1,
+      "image": "Distance/Royal_Bow.png",
+      "category": "distance"
+    },
+    "shadow_bow": {
+      "name": "Shadow Bow",
+      "attack": 8,
+      "defense": 2,
+      "class": "RANGER",
+      "type": "DISTANCE",
+      "tier": 1,
+      "image": "Distance/Shadow_Bow.png",
+      "category": "distance"
+    },
+    "short_bow": {
+      "name": "Short Bow",
+      "attack": 5,
+      "defense": 5,
+      "class": "RANGER",
+      "type": "DISTANCE",
+      "tier": 1,
+      "image": "Distance/Short_Bow.png",
+      "category": "distance"
+    },
+    "simple_bow": {
+      "name": "Simple Bow",
+      "attack": 4,
+      "defense": 6,
+      "class": "RANGER",
+      "type": "DISTANCE",
+      "tier": 1,
+      "image": "Distance/Simple_Bow.png",
+      "category": "distance"
+    },
+    "sniper": {
+      "name": "Sniper",
+      "attack": 10,
+      "defense": 0,
+      "class": "RANGER",
+      "type": "DISTANCE",
+      "tier": 1,
+      "image": "Distance/Sniper.png",
+      "category": "distance"
+    },
+    "thunder_bow": {
+      "name": "Thunder Bow",
+      "attack": 7,
+      "defense": 3,
+      "class": "RANGER",
+      "type": "DISTANCE",
+      "tier": 1,
+      "image": "Distance/Thunder_Bow.png",
+      "category": "distance"
+    },
+    "xbow": {
+      "name": "Xbow",
+      "attack": 8,
+      "defense": 2,
+      "class": "RANGER",
+      "type": "DISTANCE",
+      "tier": 1,
+      "image": "Distance/Xbow.png",
+      "category": "distance"
+    },
+    "gem_ivory_old": {
+      "name": "Ivory Staff",
+      "attack": 4,
+      "defense": 6,
+      "class": "MAGE",
+      "type": "MAGIC",
+      "tier": 1,
+      "image": "Magic/gem_ivory_old.png",
+      "category": "magic"
+    },
+    "gem_plastic_new": {
+      "name": "Icicle Staff",
+      "attack": 3,
+      "defense": 7,
+      "class": "MAGE",
+      "type": "MAGIC",
+      "tier": 1,
+      "image": "Magic/gem_plastic_new.png",
+      "category": "magic"
+    },
+    "sceptre_of_asmodeus": {
+      "name": "Winged Sceptre",
+      "attack": 6,
+      "defense": 4,
+      "class": "MAGE",
+      "type": "MAGIC",
+      "tier": 1,
+      "image": "Magic/spwpn_sceptre_of_asmodeus.png",
+      "category": "magic"
+    },
+    "staff_of_olgreb": {
+      "name": "Leaf Staff",
+      "attack": 5,
+      "defense": 5,
+      "class": "MAGE",
+      "type": "MAGIC",
+      "tier": 1,
+      "image": "Magic/spwpn_staff_of_olgreb.png",
+      "category": "magic"
+    },
+    "staff_0": {
+      "name": "Old Witch Staff",
+      "attack": 4,
+      "defense": 6,
+      "class": "MAGE",
+      "type": "MAGIC",
+      "tier": 1,
+      "image": "Magic/staff_0.png",
+      "category": "magic"
+    },
+    "staff_1": {
+      "name": "Priest Staff",
+      "attack": 5,
+      "defense": 5,
+      "class": "MAGE",
+      "type": "MAGIC",
+      "tier": 1,
+      "image": "Magic/staff_1.png",
+      "category": "magic"
+    },
+    "staff_2": {
+      "name": "Branch Wand",
+      "attack": 6,
+      "defense": 4,
+      "class": "MAGE",
+      "type": "MAGIC",
+      "tier": 1,
+      "image": "Magic/staff_2.png",
+      "category": "magic"
+    },
+    "staff_3": {
+      "name": "Blood Staff",
+      "attack": 7,
+      "defense": 3,
+      "class": "MAGE",
+      "type": "MAGIC",
+      "tier": 1,
+      "image": "Magic/staff_3.png",
+      "category": "magic"
+    },
+    "staff_4": {
+      "name": "Battle Staff",
+      "attack": 4,
+      "defense": 6,
+      "class": "MAGE",
+      "type": "MAGIC",
+      "tier": 1,
+      "image": "Magic/staff_4.png",
+      "category": "magic"
+    },
+    "staff_5": {
+      "name": "Growing Vine",
+      "attack": 5,
+      "defense": 5,
+      "class": "MAGE",
+      "type": "MAGIC",
+      "tier": 1,
+      "image": "Magic/staff_5.png",
+      "category": "magic"
+    },
+    "staff_6": {
+      "name": "Ceremonial Sceptre",
+      "attack": 6,
+      "defense": 4,
+      "class": "MAGE",
+      "type": "MAGIC",
+      "tier": 1,
+      "image": "Magic/staff_6.png",
+      "category": "magic"
+    },
+    "staff_7": {
+      "name": "Eye Staff",
+      "attack": 7,
+      "defense": 3,
+      "class": "MAGE",
+      "type": "MAGIC",
+      "tier": 1,
+      "image": "Magic/staff_7.png",
+      "category": "magic"
+    },
+    "staff_8": {
+      "name": "Gold Staff",
+      "attack": 8,
+      "defense": 2,
+      "class": "MAGE",
+      "type": "MAGIC",
+      "tier": 1,
+      "image": "Magic/staff_8.png",
+      "category": "magic"
+    },
+    "staff_9": {
+      "name": "Shaman Stick",
+      "attack": 9,
+      "defense": 1,
+      "class": "MAGE",
+      "type": "MAGIC",
+      "tier": 1,
+      "image": "Magic/staff_9.png",
+      "category": "magic"
+    },
+    "urand_brilliance": {
+      "name": "Halo Staff",
+      "attack": 10,
+      "defense": 0,
+      "class": "MAGE",
+      "type": "MAGIC",
+      "tier": 1,
+      "image": "Magic/urand_brilliance.png",
+      "category": "magic"
+    }
+  },
+  "starting_weapons": {
+    "WARRIOR": "sharp_axe",
+    "ROGUE": "dagger",
+    "RANGER": "simple_bow",
+    "MAGE": "staff_2"
+  },
+  "enemy_weapons": {
+    "WARRIOR": ["rusty_sword", "basic_axe", "iron_hammer"],
+    "ROGUE": ["curved_blade", "shadow_blade"],
+    "RANGER": ["wooden_bow", "hunter_bow"],
+    "MAGE": ["simple_staff", "dark_staff"]
+  },
+  "enemy_weapon_definitions": {
+    "rusty_sword": {
+      "name": "Rusty Sword",
+      "attack": 10,
+      "defense": 0,
+      "class": "WARRIOR",
+      "type": "IMPACT",
+      "tier": 1,
+      "image": "Impact/hand_axe_2_old.png",
+      "category": "impact"
+    },
+    "basic_axe": {
+      "name": "Basic Axe",
+      "attack": 12,
+      "defense": 0,
+      "class": "WARRIOR",
+      "type": "IMPACT",
+      "tier": 1,
+      "image": "Impact/broad_axe_1.png",
+      "category": "impact"
+    },
+    "iron_hammer": {
+      "name": "Iron Hammer",
+      "attack": 11,
+      "defense": 0,
+      "class": "WARRIOR",
+      "type": "IMPACT",
+      "tier": 1,
+      "image": "Impact/hammer_1_new.png",
+      "category": "impact"
+    },
+    "curved_blade": {
+      "name": "Curved Blade",
+      "attack": 9,
+      "defense": 3,
+      "class": "ROGUE",
+      "type": "BLADE",
+      "tier": 1,
+      "image": "Blade/Scimitar.png",
+      "category": "blade"
+    },
+    "shadow_blade": {
+      "name": "Shadow Blade",
+      "attack": 15,
+      "defense": 8,
+      "class": "ROGUE",
+      "type": "BLADE",
+      "tier": 1,
+      "image": "Blade/Void_Blade.png",
+      "category": "blade"
+    },
+    "wooden_bow": {
+      "name": "Wooden Bow",
+      "attack": 7,
+      "defense": 8,
+      "class": "RANGER",
+      "type": "DISTANCE",
+      "tier": 1,
+      "image": "Distance/Simple_Bow.png",
+      "category": "distance"
+    },
+    "hunter_bow": {
+      "name": "Hunter's Bow",
+      "attack": 10,
+      "defense": 15,
+      "class": "RANGER",
+      "type": "DISTANCE",
+      "tier": 1,
+      "image": "Distance/Longbow.png",
+      "category": "distance"
+    },
+    "simple_staff": {
+      "name": "Simple Staff",
+      "attack": 6,
+      "defense": 8,
+      "class": "MAGE",
+      "type": "MAGIC",
+      "tier": 1,
+      "image": "Magic/staff_0.png",
+      "category": "magic"
+    },
+    "dark_staff": {
+      "name": "Dark Staff",
+      "attack": 6,
+      "defense": 8,
+      "class": "MAGE",
+      "type": "MAGIC",
+      "tier": 1,
+      "image": "Magic/staff_3.png",
+      "category": "magic"
+    }
+  }
+} 

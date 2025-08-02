@@ -1,0 +1,148 @@
+{
+  "weapon_mappings": {
+    "blade": {
+      "claymore": "Blade/Claymore.png",
+      "glassblade": "Blade/Glassblade.png",
+      "cutlass 9": "Blade/cutlass_9.png",
+      "double blade": "Blade/Double_Blade.png",
+      "dagger": "Blade/Dagger.png",
+      "falchion": "Blade/Falchion.png",
+      "golden sword": "Blade/Golden_Sword.png",
+      "great sword": "Blade/Great_Sword.png",
+      "harpy sword": "Blade/Harpy_Sword.png",
+      "long knife": "Blade/Long_Knife.png",
+      "long sword": "Blade/Long_Sword.png",
+      "rapier": "Blade/Rapier.png",
+      "royal blade": "Blade/Royal_Blade.png",
+      "scimitar": "Blade/Scimitar.png",
+      "void blade": "Blade/Void_Blade.png"
+    },
+    "distance": {
+      "advanced bow": "Distance/Advanced_Bow.png",
+      "advanced crossbow": "Distance/Advanced_Crossbow.png",
+      "arbalest": "Distance/Arbalest.png",
+      "cheap crossbow": "Distance/Cheap_Crossbow.png",
+      "curved bow": "Distance/Curved_Bow.png",
+      "fire starter": "Distance/Fire_Starter.png",
+      "hunter bow": "Distance/Hunter_Bow.png",
+      "longbow": "Distance/Longbow.png",
+      "royal bow": "Distance/Royal_Bow.png",
+      "shadow bow": "Distance/Shadow_Bow.png",
+      "short bow": "Distance/Short_Bow.png",
+      "simple bow": "Distance/Simple_Bow.png",
+      "sniper": "Distance/Sniper.png",
+      "thunder bow": "Distance/Thunder_Bow.png",
+      "xbow": "Distance/Xbow.png"
+    },
+    "impact": {
+      "sharp axe": "Impact/broad_axe_1.png",
+      "knight axe": "Impact/broad_axe_5.png",
+      "executioner axe": "Impact/executioner_axe_2_new.png",
+      "giant axe": "Impact/executioner_axe_4.png",
+      "spiked club": "Impact/giant_spiked_club_2.png",
+      "basic halberd": "Impact/halberd_4.png",
+      "royal halberd": "Impact/halberd_5.png",
+      "iron hammer": "Impact/hammer_1_new.png",
+      "toy hammer": "Impact/hammer_3.png",
+      "tomahawk": "Impact/hand_axe_2_new.png",
+      "lumber axe": "Impact/hand_axe_2_old.png",
+      "royal axe": "Impact/hand_axe_3.png",
+      "massive mace": "Impact/mace_large_1_new.png",
+      "iron morningstar": "Impact/morningstar_6.png",
+      "golden morningstar": "Impact/morningstar_7.png"
+    },
+    "magic": {
+      "gem ivory old": "Magic/gem_ivory_old.png",
+      "gem plastic new": "Magic/gem_plastic_new.png",
+      "spwpn sceptre of asmodeus": "Magic/spwpn_sceptre_of_asmodeus.png",
+      "spwpn staff of olgreb": "Magic/spwpn_staff_of_olgreb.png",
+      "staff 0": "Magic/staff_0.png",
+      "staff 1": "Magic/staff_1.png",
+      "staff 2": "Magic/staff_2.png",
+      "staff 3": "Magic/staff_3.png",
+      "staff 4": "Magic/staff_4.png",
+      "staff 5": "Magic/staff_5.png",
+      "staff 6": "Magic/staff_6.png",
+      "staff 7": "Magic/staff_7.png",
+      "staff 8": "Magic/staff_8.png",
+      "staff 9": "Magic/staff_9.png",
+      "urand brilliance": "Magic/urand_brilliance.png"
+    }
+  },
+  "fallback_mappings": {
+    "staff_patterns": {
+      "pattern": "staff\\s*(\\d+)",
+      "template": "Magic/staff_{0}.png",
+      "default": "Magic/staff_0.png"
+    },
+    "sword_patterns": {
+      "rusty": "Blade/Long_Sword.png",
+      "basic": "Blade/Long_Sword.png",
+      "iron": "Blade/Long_Sword.png",
+      "steel": "Blade/Long_Sword.png",
+      "curved": "Blade/Scimitar.png",
+      "scimitar": "Blade/Scimitar.png",
+      "default": "Blade/Long_Sword.png"
+    },
+    "axe_patterns": {
+      "basic": "Impact/broad_axe_1.png",
+      "iron": "Impact/broad_axe_1.png",
+      "sharp": "Impact/broad_axe_1.png",
+      "knight": "Impact/broad_axe_5.png",
+      "royal": "Impact/hand_axe_3.png",
+      "lumber": "Impact/hand_axe_2_old.png",
+      "tomahawk": "Impact/hand_axe_2_new.png",
+      "default": "Impact/broad_axe_1.png"
+    },
+    "bow_patterns": {
+      "basic": "Distance/Simple_Bow.png",
+      "wooden": "Distance/Simple_Bow.png",
+      "short": "Distance/Short_Bow.png",
+      "hunting": "Distance/Hunter_Bow.png",
+      "default": "Distance/Simple_Bow.png"
+    },
+    "magic_patterns": {
+      "fire": "Magic/staff_1.png",
+      "ice": "Magic/staff_2.png",
+      "lightning": "Magic/staff_3.png",
+      "arcane": "Magic/staff_4.png",
+      "elemental": "Magic/staff_5.png",
+      "mystic": "Magic/staff_6.png",
+      "crystal": "Magic/staff_7.png",
+      "ancient": "Magic/staff_8.png",
+      "master": "Magic/staff_9.png",
+      "dark": "Magic/staff_1.png"
+    },
+    "generic_patterns": {
+      "sword": "Blade/Long_Sword.png",
+      "blade": "Blade/Scimitar.png",
+      "axe": "Impact/broad_axe_1.png",
+      "hammer": "Impact/hammer_1_new.png",
+      "mace": "Impact/mace_large_1_new.png",
+      "morningstar": "Impact/morningstar_6.png",
+      "halberd": "Impact/halberd_4.png",
+      "club": "Impact/giant_spiked_club_2.png",
+      "bow": "Distance/Simple_Bow.png",
+      "crossbow": "Distance/Simple_Bow.png",
+      "staff": "Magic/staff_0.png",
+      "wand": "Magic/staff_0.png",
+      "magic": "Magic/staff_0.png",
+      "dagger": "Blade/Dagger.png",
+      "knife": "Blade/Dagger.png"
+    }
+  },
+  "enemy_weapon_fallbacks": {
+    "rusty sword": "Blade/Long_Sword.png",
+    "curved blade": "Blade/Scimitar.png",
+    "basic axe": "Impact/broad_axe_1.png",
+    "sharp axe": "Impact/broad_axe_1.png",
+    "knight axe": "Impact/broad_axe_5.png",
+    "iron hammer": "Impact/hammer_1_new.png",
+    "toy hammer": "Impact/hammer_3.png",
+    "massive mace": "Impact/mace_large_1_new.png",
+    "iron morningstar": "Impact/morningstar_6.png",
+    "golden morningstar": "Impact/morningstar_7.png",
+    "wooden bow": "Distance/Simple_Bow.png",
+    "simple staff": "Magic/staff_0.png"
+  }
+} 

@@ -1,0 +1,208 @@
+{
+  "armor": {
+    "animal_robes": {
+      "name": "Animal Robes",
+      "attack": 6,
+      "defense": 3,
+      "mana": 3,
+      "class": "ROGUE",
+      "tier": 1,
+      "image": "Animal_Robes.png",
+      "category": "Universal"
+    },
+    "arcane_uniform": {
+      "name": "Arcane Uniform",
+      "attack": 5,
+      "defense": 2,
+      "mana": 5,
+      "class": "MAGE",
+      "tier": 1,
+      "image": "Arcane_Uniform.png",
+      "category": "Universal"
+    },
+    "basic_leather": {
+      "name": "Basic Leather",
+      "attack": 7,
+      "defense": 4,
+      "mana": 2,
+      "class": "ROGUE",
+      "tier": 1,
+      "image": "Basic_Leather.png",
+      "category": "Universal"
+    },
+    "combat_vest": {
+      "name": "Combat Vest",
+      "attack": 6,
+      "defense": 3,
+      "mana": 4,
+      "class": "WARRIOR",
+      "tier": 1,
+      "image": "Combat_Vest.png",
+      "category": "Universal"
+    },
+    "dragon_armor": {
+      "name": "Dragon Armor",
+      "attack": 9,
+      "defense": 6,
+      "mana": 1,
+      "class": "WARRIOR",
+      "tier": 1,
+      "image": "Dragon_Armor.png",
+      "category": "Universal"
+    },
+    "fancy_outfit": {
+      "name": "Fancy Outfit",
+      "attack": 4,
+      "defense": 2,
+      "mana": 6,
+      "class": "MAGE",
+      "tier": 1,
+      "image": "Fancy_Outfit.png",
+      "category": "Universal"
+    },
+    "gilded_scales": {
+      "name": "Gilded Scales",
+      "attack": 8,
+      "defense": 5,
+      "mana": 2,
+      "class": "WARRIOR",
+      "tier": 1,
+      "image": "Gilded_Scales.png",
+      "category": "Universal"
+    },
+    "golem_husk": {
+      "name": "Golem Husk",
+      "attack": 7,
+      "defense": 4,
+      "mana": 3,
+      "class": "WARRIOR",
+      "tier": 1,
+      "image": "Golem_Husk.png",
+      "category": "Universal"
+    },
+    "guard_chainmail": {
+      "name": "Guard Chainmail",
+      "attack": 8,
+      "defense": 5,
+      "mana": 2,
+      "class": "WARRIOR",
+      "tier": 1,
+      "image": "Guard_Chainmail.png",
+      "category": "Universal"
+    },
+    "hero_armor": {
+      "name": "Hero's Armor",
+      "attack": 10,
+      "defense": 7,
+      "mana": 1,
+      "class": "WARRIOR",
+      "tier": 1,
+      "image": "Hero's_Armor.png",
+      "category": "Universal"
+    },
+    "iced_vest": {
+      "name": "Iced Vest",
+      "attack": 5,
+      "defense": 3,
+      "mana": 4,
+      "class": "RANGER",
+      "tier": 1,
+      "image": "Iced_Vest.png",
+      "category": "Universal"
+    },
+    "knight_armor": {
+      "name": "Knight Armor",
+      "attack": 9,
+      "defense": 6,
+      "mana": 1,
+      "class": "WARRIOR",
+      "tier": 1,
+      "image": "Knight_Armor.png",
+      "category": "Universal"
+    },
+    "royal_silk": {
+      "name": "Royal Silk",
+      "attack": 6,
+      "defense": 3,
+      "mana": 5,
+      "class": "MAGE",
+      "tier": 1,
+      "image": "Royal_Silk.png",
+      "category": "Universal"
+    },
+    "vine_cape": {
+      "name": "Vine Cape",
+      "attack": 5,
+      "defense": 2,
+      "mana": 6,
+      "class": "MAGE",
+      "tier": 1,
+      "image": "Vine_Cape.png",
+      "category": "Universal"
+    },
+    "wizard_robes": {
+      "name": "Wizard Robes",
+      "attack": 4,
+      "defense": 1,
+      "mana": 7,
+      "class": "MAGE",
+      "tier": 1,
+      "image": "Wizard_Robes.png",
+      "category": "Universal"
+    }
+  },
+  "starting_armor": {
+    "WARRIOR": "basic_leather",
+    "ROGUE": "basic_leather",
+    "RANGER": "basic_leather",
+    "MAGE": "wizard_robes"
+  },
+  "enemy_armor": {
+    "WARRIOR": ["chain_mail", "guard_chainmail"],
+    "ROGUE": ["shadow_cloak", "basic_leather"],
+    "RANGER": ["leather_jerkin", "basic_leather"],
+    "MAGE": ["dark_robes", "wizard_robes"]
+  },
+  "enemy_armor_definitions": {
+    "chain_mail": {
+      "name": "Chain Mail",
+      "attack": 0,
+      "defense": 6,
+      "mana": 1,
+      "class": "WARRIOR",
+      "tier": 1,
+      "image": "Guard_Chainmail.png",
+      "category": "Universal"
+    },
+    "shadow_cloak": {
+      "name": "Shadow Cloak",
+      "attack": 0,
+      "defense": 3,
+      "mana": 2,
+      "class": "ROGUE",
+      "tier": 1,
+      "image": "Vine_Cape.png",
+      "category": "Universal"
+    },
+    "leather_jerkin": {
+      "name": "Leather Jerkin",
+      "attack": 0,
+      "defense": 2,
+      "mana": 6,
+      "class": "RANGER",
+      "tier": 1,
+      "image": "Basic_Leather.png",
+      "category": "Universal"
+    },
+    "dark_robes": {
+      "name": "Dark Robes",
+      "attack": 0,
+      "defense": 2,
+      "mana": 6,
+      "class": "MAGE",
+      "tier": 1,
+      "image": "Wizard_Robes.png",
+      "category": "Universal"
+    }
+  }
+} 
