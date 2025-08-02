@@ -1,0 +1,173 @@
+{
+  "rendering": {
+    "general": {
+      "vsync": true,
+      "double_buffering": true,
+      "anti_aliasing": true,
+      "texture_filtering": "bilinear",
+      "max_fps": 60,
+      "min_fps": 30
+    },
+    
+    "sprites": {
+      "animation_speed": 200,
+      "sprite_sheet_loading": "lazy",
+      "sprite_cache_size": 1000,
+      "sprite_compression": false,
+      "sprite_quality": "high",
+      "pixel_perfect": true
+    },
+    
+    "effects": {
+      "particle_systems": true,
+      "max_particles": 1000,
+      "particle_lifetime": 2000,
+      "screen_shake": true,
+      "screen_flash": true,
+      "motion_blur": false,
+      "bloom_effect": false,
+      "depth_of_field": false
+    },
+    
+    "lighting": {
+      "enabled": true,
+      "ambient_light": 0.3,
+      "dynamic_lighting": true,
+      "shadow_quality": "medium",
+      "max_lights": 10,
+      "light_falloff": 1.0,
+      "fog_enabled": false,
+      "fog_density": 0.1
+    },
+    
+    "ui": {
+      "font_rendering": "smooth",
+      "font_cache_size": 100,
+      "ui_scale": 1.0,
+      "ui_opacity": 0.9,
+      "ui_blur": false,
+      "tooltip_delay": 500,
+      "notification_duration": 3000,
+      "menu_transitions": true
+    },
+    
+    "map": {
+      "tile_rendering": "optimized",
+      "tile_cache_size": 500,
+      "fog_of_war": true,
+      "fog_opacity": 0.7,
+      "revealed_tiles_opacity": 0.3,
+      "wall_rendering": "textured",
+      "floor_rendering": "textured",
+      "decoration_density": 0.1
+    },
+    
+    "characters": {
+      "sprite_animation": true,
+      "idle_animation": true,
+      "walking_animation": true,
+      "attack_animation": true,
+      "death_animation": true,
+      "shadow_rendering": true,
+      "outline_rendering": false,
+      "health_bar_rendering": true
+    },
+    
+    "weapons": {
+      "weapon_swing_animation": true,
+      "weapon_trail_effect": false,
+      "weapon_glow": false,
+      "projectile_trail": true,
+      "projectile_glow": false,
+      "impact_effects": true,
+      "blood_effects": false
+    },
+    
+    "projectiles": {
+      "projectile_speed": 8.0,
+      "projectile_trail": true,
+      "projectile_glow": false,
+      "projectile_rotation": true,
+      "projectile_animation": true,
+      "impact_particles": true,
+      "ricochet_effects": false
+    },
+    
+    "combat": {
+      "damage_numbers": true,
+      "damage_flash": true,
+      "critical_hit_effects": true,
+      "block_effects": true,
+      "dodge_effects": true,
+      "heal_effects": true,
+      "status_effect_icons": true
+    },
+    
+    "environment": {
+      "weather_effects": false,
+      "day_night_cycle": false,
+      "ambient_particles": false,
+      "wind_effects": false,
+      "water_reflections": false,
+      "mirror_effects": false
+    },
+    
+    "performance": {
+      "culling_enabled": true,
+      "culling_distance": 20,
+      "batch_rendering": true,
+      "texture_atlas": true,
+      "shader_optimization": true,
+      "memory_management": "aggressive",
+      "garbage_collection": "manual"
+    },
+    
+    "debug": {
+      "show_fps": false,
+      "show_memory_usage": false,
+      "show_render_stats": false,
+      "show_collision_boxes": false,
+      "show_pathfinding": false,
+      "show_ai_state": false,
+      "wireframe_mode": false,
+      "texture_debug": false
+    },
+    
+    "quality_presets": {
+      "low": {
+        "anti_aliasing": false,
+        "particle_systems": false,
+        "dynamic_lighting": false,
+        "shadow_quality": "off",
+        "sprite_quality": "low",
+        "texture_filtering": "nearest"
+      },
+      "medium": {
+        "anti_aliasing": true,
+        "particle_systems": true,
+        "dynamic_lighting": false,
+        "shadow_quality": "low",
+        "sprite_quality": "medium",
+        "texture_filtering": "bilinear"
+      },
+      "high": {
+        "anti_aliasing": true,
+        "particle_systems": true,
+        "dynamic_lighting": true,
+        "shadow_quality": "medium",
+        "sprite_quality": "high",
+        "texture_filtering": "trilinear"
+      },
+      "ultra": {
+        "anti_aliasing": true,
+        "particle_systems": true,
+        "dynamic_lighting": true,
+        "shadow_quality": "high",
+        "sprite_quality": "ultra",
+        "texture_filtering": "anisotropic",
+        "bloom_effect": true,
+        "motion_blur": true
+      }
+    }
+  }
+} 

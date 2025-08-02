@@ -1,0 +1,144 @@
+{
+  "game": {
+    "title": "Mini Rogue Demo",
+    "version": "1.0.0",
+    "fps": 60,
+    "debug_mode": false
+  },
+  
+  "display": {
+    "window_width": 1200,
+    "window_height": 800,
+    "tile_size": 32,
+    "ui_scale": 1.0,
+    "fullscreen": false
+  },
+  
+  "player": {
+    "starting_health": 100,
+    "starting_mana": 50,
+    "starting_level": 1,
+    "experience_base": 100,
+    "experience_multiplier": 1.5,
+    "stat_points_per_level": 5,
+    "max_level": 50
+  },
+  
+  "combat": {
+    "base_attack_speed": 1.0,
+    "base_attack_range": 1,
+    "base_attack_damage": 10,
+    "base_defense": 5,
+    "critical_chance": 0.05,
+    "critical_multiplier": 2.0,
+    "dodge_chance": 0.05,
+    "block_chance": 0.03,
+    "block_reduction": 0.5
+  },
+  
+  "movement": {
+    "base_movement_speed": 1.0,
+    "diagonal_movement_cost": 1.4,
+    "collision_checking": true,
+    "smooth_movement": true
+  },
+  
+  "enemy": {
+    "base_health": 50,
+    "base_damage": 8,
+    "base_defense": 3,
+    "experience_reward": 20,
+    "gold_reward": 10,
+    "aggro_range": 8,
+    "patrol_radius": 3,
+    "respawn_time": 30000
+  },
+  
+  "boss": {
+    "health_multiplier": 5.0,
+    "damage_multiplier": 2.0,
+    "defense_multiplier": 1.5,
+    "experience_multiplier": 10.0,
+    "gold_multiplier": 5.0,
+    "special_abilities": true
+  },
+  
+  "items": {
+    "max_inventory_size": 20,
+    "stack_limit": 99,
+    "auto_pickup_range": 1,
+    "item_flash_duration": 2000,
+    "item_despawn_time": 300000
+  },
+  
+  "equipment": {
+    "weapon_slots": 1,
+    "armor_slots": 1,
+    "accessory_slots": 2,
+    "durability_enabled": false,
+    "repair_cost_multiplier": 0.1
+  },
+  
+  "map": {
+    "width": 50,
+    "height": 50,
+    "room_min_size": 5,
+    "room_max_size": 15,
+    "corridor_width": 3,
+    "wall_thickness": 1,
+    "door_chance": 0.3,
+    "trap_chance": 0.1
+  },
+  
+  "rendering": {
+    "sprite_animation_speed": 200,
+    "projectile_speed": 8.0,
+    "effect_duration": 1000,
+    "particle_count": 50,
+    "lighting_enabled": true,
+    "shadows_enabled": true,
+    "anti_aliasing": true
+  },
+  
+  "audio": {
+    "master_volume": 0.8,
+    "music_volume": 0.6,
+    "sfx_volume": 0.7,
+    "ambient_volume": 0.4,
+    "voice_volume": 0.9
+  },
+  
+  "ui": {
+    "font_size": 14,
+    "font_family": "PressStart2P",
+    "panel_opacity": 0.9,
+    "tooltip_delay": 500,
+    "notification_duration": 3000,
+    "menu_transition_speed": 200
+  },
+  
+  "input": {
+    "key_repeat_delay": 500,
+    "key_repeat_rate": 50,
+    "mouse_sensitivity": 1.0,
+    "invert_y_axis": false,
+    "gamepad_enabled": false
+  },
+  
+  "save": {
+    "auto_save_interval": 300000,
+    "max_save_slots": 5,
+    "backup_saves": true,
+    "save_format_version": "1.0"
+  },
+  
+  "debug": {
+    "show_fps": false,
+    "show_coordinates": false,
+    "show_pathfinding": false,
+    "show_collision_boxes": false,
+    "show_ai_state": false,
+    "god_mode": false,
+    "infinite_resources": false
+  }
+} 
