@@ -1,7 +1,0 @@
-HOW TO USE:
-
-TCP - navigate to each folder in the "TCP_SOCKET" folder and run the executable file starting with the "TCP_Server" then the "TCP_Client"
-- The image will be saved in the same file as the server executable and it is hard coded as a jpg
-
-UDP - navigate to each folder in the "UDP_SOCKET" folder and run the executable file starting with the "UDP_Server" then the "UDP_Client"
-- The image will be saved in the same file as the server executable and it is hard coded as a jpg
